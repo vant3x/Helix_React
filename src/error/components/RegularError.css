@@ -1,0 +1,30 @@
+.Error-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+
+
+}
+
+.Title-error{
+  color: #fff;
+  font-size: 2.5em;
+
+}
+
+.blue{
+  color:rgb(20, 196, 244);
+}
+
+.btn-error{
+  background: rgb(224, 3, 76);
+  color:#fff;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding:10px;
+
+}

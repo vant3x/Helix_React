@@ -1,0 +1,98 @@
+{
+    "categories": [
+      {
+        "id": 1,
+        "description": "Lo mejor de la semana",
+        "title": "Destacados",
+        "playlist": [
+          {
+            "title": "¿Qué es Helix?",
+            "author": "Alejandro Velásquez",
+            "type": "video",
+            "cover": "./../img/lego-build-building-blocks-toys-children-play-1.jpg",
+            "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+            "id": 1
+          },
+          {
+            "title": "Cómo optimizar la carga de un website",
+            "author": "Alejandro Velásquez",
+            "type": "video",
+            "cover": "./../img/computer-and-headphones-on-table.jpg",
+            "src": "http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4",
+            "id": 2
+          },
+          {
+            "title": "Cómo hacer efecto de Fotografía 3D en Photoshop",
+            "author": "Alejandro Velásquez",
+            "type": "video",
+            "cover": "https://i.ytimg.com/vi/BP41809ivE8/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCr9puxmDuylnjeMrCjvvAcippQ-Q",
+            "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+            "id": 3
+          },
+          {
+            "title": "Veggiez API Backend using MERN | TEST  #2 with JWT - BCrypt",
+            "author": "Alevante VM",
+            "type": "video",
+            "cover": "https://i.ytimg.com/vi/ODN1YrXBqgI/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBqzcvJXeFmsun9hCIgtWOoby2mjQ",
+            "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+            "id": 4
+          },
+          {
+            "title": "Frontend 1 ORBTX JS, Webpack, Sass",
+            "author": "Alevante VM",
+            "type": "video",
+            "cover": "https://i.ytimg.com/vi/ru9SduxftcA/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLD3ypcRMp3XFxPNh_ku3WU1qfpAwA",
+            "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Algunas de las cosas más sorprendentes y actualizadas sobre inteligencia artificial",
+        "title": "Inteligencia Artificial",
+        "playlist": [
+          {
+            "title": "¿Qué es la Inteligencia Artificial?",
+            "author": "BBC Mundo",
+            "type": "video",
+            "cover": "https://i.ytimg.com/vi/8lMIdrlIWOQ/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCMDPWBehLRlR17rF0WEsNyv66i6A",
+            "src": "https://i.ytimg.com/vi/8lMIdrlIWOQ/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCMDPWBehLRlR17rF0WEsNyv66i6A",
+            "id": 1
+          },
+          {
+            "title": "What happens when our computers get smarter than we are? | Nick Bostrom",
+            "author": "TED",
+            "type": "video",
+            "cover": "https://i.ytimg.com/vi/MnT1xgZgkpk/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDnQDUIGImO_cy0jSD-H_3nnBoMyw",
+            "src": "https://i.ytimg.com/vi/MnT1xgZgkpk/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDnQDUIGImO_cy0jSD-H_3nnBoMyw",
+            "id": 2
+          },
+          {
+            "title": "What is Artificial Intelligence Exactly?",
+            "author": "ColdFusion",
+            "type": "video",
+            "cover": "https://i.ytimg.com/vi/kWmX3pd1f10/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAME-3NP_ynK0Sxmp2L8XKyhdMhkg",
+            "src": "https://i.ytimg.com/vi/kWmX3pd1f10/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAME-3NP_ynK0Sxmp2L8XKyhdMhkg",
+            "id": 3
+          },
+          {
+            "title": "The Threat of AI Weapons",
+            "author": "Veritasium",
+            "type": "video",
+            "cover": "https://i.ytimg.com/vi/XAgXwUwQoPA/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDyZ-yjNYMdvLtReNvXmrwcROOTQQ",
+            "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+            "id": 4
+          },
+          {
+            "title": "JavaScript Neuronal Networks AI",
+            "author": "Danny Ocean",
+            "type": "video",
+            "cover": "https://i.ytimg.com/vi/BGmNsuSraAw/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDwr_J15RACTL0cTgz7aImkdoJSdw",
+            "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+            "id": 5
+          }
+        ]
+      }
+    ]
+  }
