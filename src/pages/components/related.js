@@ -7,6 +7,13 @@ function Related(props) {
 		<div className="Related">
 			<img src={logo} width={120}/>
 			<h3 className="tl-helix">HELIX</h3>
+			<div className="list-relation">
+			<ul >
+				<li><a href="">Consumir API con React</a></li>
+				<li><a href="">Manejo de rutas privadas en React</a></li>
+				<li><a href=""></a></li>
+			</ul>
+			</div>
 		</div>
 	)
 }
