@@ -38,9 +38,8 @@ class Home extends Component {
 								handleClick={this.handleCloseModal}
 							>
 							<VideoPlayer 
-								autoplay
+								autoplay	
 							 />
-
 							</Modal>
 						</ModalContainer>
 					}

@@ -1,10 +1,9 @@
 .Video{
-  width: inherit;
-  /* max-width: 300px; */
+  max-width: 800px;
 
 }
 .Video video{
   width: inherit;
-  max-width: 800px;
+  max-width: 900px;
   vertical-align: middle;
 }
