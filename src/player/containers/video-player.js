@@ -6,18 +6,18 @@ import PlayPause from '../components/play-pause';
 import Timer from '../components/Timer';
 import Controls from '../components/video-player-controls';
 import ProgressBar from '../components/progressBar';
+import Spinner from '../components/spinner.js';
 
 import FormattedTime from '../../libs/formatted.js';
 
 class VideoPlayer extends Component {
-
   state = {
     pause: true,
     duration: 0,
     currentTime: 0,
     durationFloat: 0,
     currentTimeFloat:0,
-    progress: 0
+    loading: false
   }
 
   togglePlay = (event) => {
@@ -51,6 +51,18 @@ class VideoPlayer extends Component {
     this.video.currentTime = event.target.value
   }
 
+  handleSeeking = event => {
+    this.setState({
+      loading: true
+    })
+  }
+
+  handleSeeked = event => {
+    this.setState({
+      loading: false
+    })
+  }
+
   render() {
     return (
       <VideoPlayerLayout>
@@ -74,13 +86,16 @@ class VideoPlayer extends Component {
           />
         </Controls>
         {/* -- Fin Controles del reproductor -- */}
-
-  
+        <Spinner
+          active={this.state.loading}
+        />
         <Video 
           autoplay={this.props.autoplay}
           pause={this.state.pause}
           handleLoadedMetadata={this.handleLoadedMetadata}
           handleTimeUpdate={this.handleTimeUpdate}
+          handleSeeking={this.handleSeeking}
+          handleSeeked={this.handleSeeked}
           src="../../../public/assets/ia_animate.mp4"
         />
       </VideoPlayerLayout>
