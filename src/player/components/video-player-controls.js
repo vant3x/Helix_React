@@ -1,5 +1,6 @@
 import React from 'react';
 import './video-player-controls.css';
+
 function videoPlayerControls(props) {
   return (
     <div class="VideoPlayerControls">

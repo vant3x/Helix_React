@@ -1,9 +1,18 @@
-.Video{
-  max-width: 800px;
+/* .Video{
+  max-width: 100%;
 
 }
 .Video video{
   width: inherit;
   max-width: 900px;
+  vertical-align: middle;
+} */
+
+
+.Video {
+  width: inherit;
+}
+.Video video {
+  width: inherit;
   vertical-align: middle;
 }
